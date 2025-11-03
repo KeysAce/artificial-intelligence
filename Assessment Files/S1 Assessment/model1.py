@@ -171,5 +171,3 @@ print("Times Unsure: " + str(timesUnsure))
 
 accuracy = ((tp + tn) / (tp + tn + fp + fn)) * 100
 print("-=-=- MODEL ACCURACY: " + str(accuracy) + "% -=-=-")
-
-#print(database[['Age', 'Credit amount', 'Duration', 'Saving accounts', 'Checking account', 'Risk', 'Predicted Risk']])

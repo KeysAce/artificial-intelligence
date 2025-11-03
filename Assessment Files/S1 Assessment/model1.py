@@ -170,4 +170,12 @@ print("False Negatives: " + str(fn))
 print("Times Unsure: " + str(timesUnsure))
 
 accuracy = ((tp + tn) / (tp + tn + fp + fn)) * 100
-print("-=-=- MODEL ACCURACY: " + str(accuracy) + "% -=-=-")
+recall = (tp / (tp + fn)) * 100
+precision = (tp / (tp + fp)) * 100
+f1Score = (2*((precision * recall)/(precision + recall)))
+
+print("-=-=- MODEL ACCURACY STATISTICS-=-=-")
+print("Accuracy = " + str(accuracy) + "%")
+print("Recall = " + str(recall) + "%")
+print("Precision = " + str(precision) + "%")
+print("F1 Score = " + str(f1Score) + "%")

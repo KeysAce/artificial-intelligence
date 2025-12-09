@@ -1,3 +1,7 @@
+# ============================================================
+# Disclaimer: Developed with assistance from AI language model - ChatGPT
+# ============================================================
+
 import re
 import numpy as np
 import pandas as pd
